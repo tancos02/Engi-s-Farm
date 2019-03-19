@@ -5,7 +5,7 @@
 #include "EggProducer.hpp"
 using namespace std;
 
-class Chicken: public EggProducer{
+class Chicken: virtual public EggProducer{
     public:
     //ctor default
     Chicken();

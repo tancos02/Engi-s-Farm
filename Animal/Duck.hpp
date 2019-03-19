@@ -6,7 +6,7 @@
 #include "MeatProducer.hpp"
 using namespace std;
 
-class Duck: public EggProducer, public MeatProducer{
+class Duck: virtual public EggProducer, virtual public MeatProducer{
     public:
     //ctor default
     Duck();

@@ -16,7 +16,7 @@ class Animal{
     virtual bool isHungry()=0; //true jika lapar, false jika tidak. Implementasi bergantung jenis hewan
 
     protected:
-    
+    bool meat, milk, egg;
 };
 
 #endif

@@ -1,13 +1,14 @@
-#ifndef _PENGHASILDAGING_HPP
-#define _PENGHASILDAGING_HPP
+#ifndef _MEATPRODUCER_HPP
+#define _MEATPRODUCER_HPP
 
 #include <iostream>
 #include "Animal.hpp"
 using namespace std;
 
-class MeatProducer: public Animal{
+class MeatProducer: virtual public Animal{
     public:
-
+    MeatProducer();
+    
     protected:
     int meat; 
 };

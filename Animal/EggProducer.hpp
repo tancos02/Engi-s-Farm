@@ -1,13 +1,14 @@
-#ifndef _PENGHASILTELUR_HPP
-#define _PENGHASILTELUR_HPP
+#ifndef _EGGPRODUCER_HPP
+#define _EGGPRODUCER_HPP
 
 #include <iostream>
 #include "Animal.hpp"
 using namespace std;
 
-class EggProducer: public Animal{
+class EggProducer: virtual public Animal{
     public:
-
+    EggProducer();
+    
     protected:
     int egg;
 };

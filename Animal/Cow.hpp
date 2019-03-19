@@ -6,7 +6,7 @@
 #include "MilkProducer.hpp"
 using namespace std;
 
-class Cow: public MeatProducer, public MilkProducer{
+class Cow: virtual public MeatProducer, virtual public MilkProducer{
     public:
     //ctor deafult
     Cow();

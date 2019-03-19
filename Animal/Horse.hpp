@@ -5,7 +5,7 @@
 #include "MilkProducer.hpp"
 using namespace std;
 
-class Horse: public MilkProducer{
+class Horse: virtual public MilkProducer{
     public:
     //ctor default
     Horse();
