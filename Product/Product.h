@@ -16,7 +16,7 @@ class Product {
         Product();
 
         // ctor user defined
-        Product(double Price,bool farm_product,int side_product);
+        Product(double Price,bool farm_product,bool side_product);
 
         //Setter
         void SetPrice(double _Price);
