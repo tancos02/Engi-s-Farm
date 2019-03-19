@@ -9,8 +9,8 @@ protected:
     bool OccupiedStatus;  // Status apakah land sudah ditempati animal
     bool GrassStatus;  // Status apakah land sudah ditumbuhi rumput
 public:
-    Land():Cell(); // CTOR tanpa parameter
-    Land(int _x,int _y,char _LandType, bool _OccStatus, bool _GrassStatus) : Cell(_x,_y); // CTOR dengan parameter
+    Land(); // CTOR tanpa parameter
+    Land(int _x,int _y,char _LandType, bool _OccStatus, bool _GrassStatus); // CTOR dengan parameter
     // Getter dan setter
     char GetTypeOfLand(int posX,int posY);
     void SetTypeOfLand(int posX,int posY,char LandType);

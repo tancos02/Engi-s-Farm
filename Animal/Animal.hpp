@@ -2,10 +2,11 @@
 #define _ANIMAL_HPP
 
 #include <iostream>
+#include "Rendarable.h"
 using namespace std;
 
 //Basis kelas abstrak
-class Animal{
+class Animal : public Renderable{
     public:
     void moveUp(); //gerak 1 petak ke atas
     void moveDown(); //gerak 1 petak ke bawah
