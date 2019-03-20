@@ -2,6 +2,8 @@
 #ifndef CELL_H
 #define CELL_H
 
+#include "Renderable.h"
+
 class Cell {
 protected:  // Posisi dari cell dalam bentuk (x,y)
     int x;
